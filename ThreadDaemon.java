@@ -1,3 +1,4 @@
+// 3. How can we make a regular thread Daemon thread in Java?
 public class ThreadDaemon {
     
     public static void main(String[] args) {
