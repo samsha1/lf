@@ -74,7 +74,7 @@ class GetNode {
 public class BinaryTreeNode {
     public static void main(String[] args) {
         GetNode gn = new GetNode();
-        List<TreeNode> nodes = gn.allPossibleFBT(3);
+        List<TreeNode> nodes = gn.allPossibleFBT(7);
 
         for (TreeNode node : nodes) {
             TreeNode.printLevelOrder(node);

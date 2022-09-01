@@ -30,7 +30,7 @@ class SlaveThread extends Thread {
             try {
                 sleep(500);
             } catch (InterruptedException e) {
-                // handle exception here
+                System.out.println("Exception Raised: " + e.getMessage());
             }
         }
     }
